@@ -1,0 +1,28 @@
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3"><img src="{dede:global.cfg_templets_skin/}/imgs/logo.png" alt=""/></div>
+            <div class="col-sm-8">
+                <!--<ul class="nav_">-->
+                    <!--<li><a href="index.html">首页</a></li>-->
+                    <!--<li><a href="news.html">行业新闻</a></li>-->
+                    <!--<li><a href="company.html">公司概况</a></li>-->
+                    <!--<li><a href="javascript:">公司业务</a></li>-->
+                    <!--<li><a href="javascript:">开发项目</a></li>-->
+                    <!--<li><a href="join.html">人力资源</a></li>-->
+                    <!--<li><a href="contact.html">联系我们</a></li>-->
+                <!--</ul>-->
+
+                <ul class="nav_">
+                    <li><a href='{dede:global.cfg_cmsurl/}/'>首页</a></li>
+                    {dede:channel type='top' row='10' currentstyle="<li class='active'><a href='~typelink~' ~rel~>~typename~</a></li>"}
+                    <li>
+                        <a href='[field:typeurl/]' [field:rel/]>[field:typename/]</a>
+                    </li>
+                    {/dede:channel}
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</header>
