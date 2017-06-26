@@ -206,6 +206,8 @@ header .nav_ li a {
 }
 footer .footer {
     background-image: url(../images/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
     color: #fff;
     padding-top: 2%;
     padding-bottom: 5%;
